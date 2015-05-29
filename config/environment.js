@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'root-uri-bug',
     environment: environment,
-    baseURL: '/',
+    baseURL: '/foo/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
